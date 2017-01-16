@@ -223,6 +223,18 @@
 <pre><code class="bash">$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
 </code></pre>
 
+<h3 id="windows">Windows</h3>
+<p>Create a folder named <code>mosquitto</code> in <code>C:\Program Files (x86)</code></p>
+<p>Download and install <a href="http://slproweb.com/products/Win32OpenSSL.html">Win32 OpenSSL v.1.0.2j Light</a>. Select the option to save the binaries to /bin. Find <code>libeay32.dll</code> and <code>ssleay32.dll</code>, move them to <code>mosquitto</code>.</p>
+<p>Download <a href="ftp://sources.redhat.com/pub/pthreads-win32/dll-latest/dll/x86/">pthreadVC2.dll</a>, move it to <code>mosquitto</code>.</p>
+<p>Download and install <a href="https://mosquitto.org/download/">mosquitto</a>. Leave the</p>
+<p>Open Services, find <code>Mosquitto Broker</code> and start it.</p>
+<p>To be able to run it from the command line, open System Properties, go to the Advanced tab, and open Environment Variables. Add the path to <code>mosquitto</code> to the user Path variable, followed by ;.
+e.g.</p>
+<pre><code>C:\Program Files (x86)\mosquitto;
+</code></pre>
+
+<p>Commands are run in cmd like osx/linux.</p>
 <h3 id="docker">Docker</h3>
 <p>To run mosquitto as a docker service:</p>
 <pre><code class="bash">$ docker run -ti -p 1883:1883 -p 9001:9001 toke/mosquitto
