@@ -1,308 +1,313 @@
 {
     "docs": [
         {
-            "location": "/", 
-            "text": "Athenian Robotics\n\n\nThe Athenian Robotics Github home is \nhere\n.", 
+            "location": "/",
+            "text": "Athenian Robotics\n\n\nThe Athenian Robotics Github home is \nhere\n.",
             "title": "Home"
-        }, 
+        },
         {
-            "location": "/#athenian-robotics", 
-            "text": "The Athenian Robotics Github home is  here .", 
+            "location": "/#athenian-robotics",
+            "text": "The Athenian Robotics Github home is  here .",
             "title": "Athenian Robotics"
-        }, 
+        },
         {
-            "location": "/setup/", 
-            "text": "Machine Setup\n\n\nOSX\n\n\nInstall the following pieces of software: \n\n\n\n\n\n\nXCode\n\n\n\n\n\n\nJava 8\n\n\n\n\n\n\nbrew\n\n\n\n\n\n\n$ /usr/bin/ruby -e \n$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\n\n\n\n\n\n\n\nPython 3\n\n\n\n\n$ brew install python3\n\n\n\n\n\n\ngit\n\n\n\n\n$ brew install git\n\n\n\n\n\n\nmaven\n\n\n\n\n$ brew install maven\n\n\n\n\n\n\ngradle\n\n\n\n\n$ brew install gradle\n\n\n\n\n\n\nhttpie\n\n\n\n\n$ brew install httpie", 
+            "location": "/setup/",
+            "text": "Machine Setup\n\n\nOSX\n\n\nInstall the following pieces of software: \n\n\n\n\n\n\nXCode\n\n\n\n\n\n\nJava 8\n\n\n\n\n\n\nbrew\n\n\n\n\n\n\n$ /usr/bin/ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\"\n\n\n\n\n\n\nPython 3\n\n\n\n\n$ brew install python3\n\n\n\n\n\n\ngit\n\n\n\n\n$ brew install git\n\n\n\n\n\n\nmaven\n\n\n\n\n$ brew install maven\n\n\n\n\n\n\ngradle\n\n\n\n\n$ brew install gradle\n\n\n\n\n\n\nhttpie\n\n\n\n\n$ brew install httpie",
             "title": "Setup"
-        }, 
+        },
         {
-            "location": "/setup/#machine-setup", 
-            "text": "", 
+            "location": "/setup/#machine-setup",
+            "text": "",
             "title": "Machine Setup"
-        }, 
+        },
         {
-            "location": "/setup/#osx", 
-            "text": "Install the following pieces of software:     XCode    Java 8    brew    $ /usr/bin/ruby -e  $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)    Python 3   $ brew install python3   git   $ brew install git   maven   $ brew install maven   gradle   $ brew install gradle   httpie   $ brew install httpie", 
+            "location": "/setup/#osx",
+            "text": "Install the following pieces of software:     XCode    Java 8    brew    $ /usr/bin/ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\"   Python 3   $ brew install python3   git   $ brew install git   maven   $ brew install maven   gradle   $ brew install gradle   httpie   $ brew install httpie",
             "title": "OSX"
-        }, 
+        },
         {
-            "location": "/python-admin/", 
-            "text": "Python Administration\n\n\nInstallation\n\n\nOSX\n\n\nInstallation details are \n\nhere\n.\n\n\nPython3 requires \ngcc\n, which you can get by installing \n\nXCode\n or \n\nCommand Line Tools\n.\n\n\nInstall python3 and pip3 with:\n\n\n$ brew install python3\n\n\n\n\nEV3\n\n\nInstall python3 and pip3:\n\n\n$ sudo apt-get install python3\n$ sudo apt-get install python3-pip\n\n\n\n\nPackage Management\n\n\nDetermine installed packages with:\n\n\n$ pip3 list \n\n\n\n\nDetermine outdated packages with:\n\n\n$ pip3 list --outdated\n\n\n\n\nInstall a package with:\n\n\n$ pip3 install pkg_name\n\n\n\n\nUpdate a package with:\n\n\n$ pip3 install --upgrade pkg_name", 
+            "location": "/python-admin/",
+            "text": "Python Administration\n\n\nInstallation\n\n\nOSX\n\n\nInstallation details are \n\nhere\n.\n\n\nPython3 requires \ngcc\n, which you can get by installing \n\nXCode\n or \n\nCommand Line Tools\n.\n\n\nInstall python3 and pip3 with:\n\n\n$ brew install python3\n\n\n\n\nEV3\n\n\nInstall python3 and pip3:\n\n\n$ sudo apt-get install python3\n$ sudo apt-get install python3-pip\n\n\n\n\nPackage Management\n\n\nDetermine installed packages with:\n\n\n$ pip3 list \n\n\n\n\nDetermine outdated packages with:\n\n\n$ pip3 list --outdated\n\n\n\n\nInstall a package with:\n\n\n$ pip3 install pkg_name\n\n\n\n\nUpdate a package with:\n\n\n$ pip3 install --upgrade pkg_name",
             "title": "Admin"
-        }, 
+        },
         {
-            "location": "/python-admin/#python-administration", 
-            "text": "", 
+            "location": "/python-admin/#python-administration",
+            "text": "",
             "title": "Python Administration"
-        }, 
+        },
         {
-            "location": "/python-admin/#installation", 
-            "text": "", 
+            "location": "/python-admin/#installation",
+            "text": "",
             "title": "Installation"
-        }, 
+        },
         {
-            "location": "/python-admin/#osx", 
-            "text": "Installation details are  here .  Python3 requires  gcc , which you can get by installing  XCode  or  Command Line Tools .  Install python3 and pip3 with:  $ brew install python3", 
+            "location": "/python-admin/#osx",
+            "text": "Installation details are  here .  Python3 requires  gcc , which you can get by installing  XCode  or  Command Line Tools .  Install python3 and pip3 with:  $ brew install python3",
             "title": "OSX"
-        }, 
+        },
         {
-            "location": "/python-admin/#ev3", 
-            "text": "Install python3 and pip3:  $ sudo apt-get install python3\n$ sudo apt-get install python3-pip", 
+            "location": "/python-admin/#ev3",
+            "text": "Install python3 and pip3:  $ sudo apt-get install python3\n$ sudo apt-get install python3-pip",
             "title": "EV3"
-        }, 
+        },
         {
-            "location": "/python-admin/#package-management", 
-            "text": "Determine installed packages with:  $ pip3 list   Determine outdated packages with:  $ pip3 list --outdated  Install a package with:  $ pip3 install pkg_name  Update a package with:  $ pip3 install --upgrade pkg_name", 
+            "location": "/python-admin/#package-management",
+            "text": "Determine installed packages with:  $ pip3 list   Determine outdated packages with:  $ pip3 list --outdated  Install a package with:  $ pip3 install pkg_name  Update a package with:  $ pip3 install --upgrade pkg_name",
             "title": "Package Management"
-        }, 
+        },
         {
-            "location": "/python-links/", 
-            "text": "Python Links\n\n\nIDEs\n\n\n\n\nPyCharm\n\n\nPyCharm Edu\n\n\n\n\nCloud REPLs\n\n\n\n\nJupyter\n  (New-\nTerminal)\n\n\n\n\nCourses\n\n\n\n\nGoogle Python Course\n\n\nInteractive Python Tutorial\n\n\n\n\nBooks\n\n\n\n\nThink Python Book\n\n\n\n\nev3dev\n\n\n\n\nev3dev Python Docs\n\n\n\n\nMisc\n\n\n\n\nPython Cheatsheets", 
+            "location": "/python-links/",
+            "text": "Python Links\n\n\nIDEs\n\n\n\n\nPyCharm\n\n\nPyCharm Edu\n\n\n\n\nCloud REPLs\n\n\n\n\nJupyter\n  (New->Terminal)\n\n\n\n\nCourses\n\n\n\n\nGoogle Python Course\n\n\nInteractive Python Tutorial\n\n\n\n\nBooks\n\n\n\n\nThink Python Book\n\n\n\n\nev3dev\n\n\n\n\nev3dev Python Docs\n\n\n\n\nMisc\n\n\n\n\nPython Cheatsheets",
             "title": "Links"
-        }, 
+        },
         {
-            "location": "/python-links/#python-links", 
-            "text": "", 
+            "location": "/python-links/#python-links",
+            "text": "",
             "title": "Python Links"
-        }, 
+        },
         {
-            "location": "/python-links/#ides", 
-            "text": "PyCharm  PyCharm Edu", 
+            "location": "/python-links/#ides",
+            "text": "PyCharm  PyCharm Edu",
             "title": "IDEs"
-        }, 
+        },
         {
-            "location": "/python-links/#cloud-repls", 
-            "text": "Jupyter   (New- Terminal)", 
+            "location": "/python-links/#cloud-repls",
+            "text": "Jupyter   (New->Terminal)",
             "title": "Cloud REPLs"
-        }, 
+        },
         {
-            "location": "/python-links/#courses", 
-            "text": "Google Python Course  Interactive Python Tutorial", 
+            "location": "/python-links/#courses",
+            "text": "Google Python Course  Interactive Python Tutorial",
             "title": "Courses"
-        }, 
+        },
         {
-            "location": "/python-links/#books", 
-            "text": "Think Python Book", 
+            "location": "/python-links/#books",
+            "text": "Think Python Book",
             "title": "Books"
-        }, 
+        },
         {
-            "location": "/python-links/#ev3dev", 
-            "text": "ev3dev Python Docs", 
+            "location": "/python-links/#ev3dev",
+            "text": "ev3dev Python Docs",
             "title": "ev3dev"
-        }, 
+        },
         {
-            "location": "/python-links/#misc", 
-            "text": "Python Cheatsheets", 
+            "location": "/python-links/#misc",
+            "text": "Python Cheatsheets",
             "title": "Misc"
-        }, 
+        },
         {
-            "location": "/repl1/", 
-            "text": "Primitive values\n\n\n# Numbers\n2 + 4\n7 * 5\ni_val = 8\nf_val = 4.3\n\ni_val\ni_val + 3\ni_val * f_val\n\n# Strings\n\nHello \n + 'World'\n\ns_val = \ndog\n\n\nWatch the \n + s_val + \n run\n\n\ns_val * 10\n\n# Determining type\ntype(i_val)\ntype(f_val)\n\n\n\n\nBuilt-in Functions\n\n\nabs(-3)\nmax(1, 2, 3)\nmin(5, 6, 3, 4, 8)\nlen('this is a string')\n\ni = 5\n\nAn int value: \n + i\n\nAn int value: \n + str(i)\n\n\n\n\nLists\n\n\nlist1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nlist2 = range(20)\nlist3 = range(5, 12)\nlist4 = range(0, 14, 2)\nlist5 = [\ngoat\n, 6, \ncow\n, 4.2]\n\nlen(list1)\nlist1[2]\nlist1[-2]\n\nlist1[5]\nlist1[5] = 99\n\nlist1.append(88)\nlist1.insert(3, 44)\nlist1.remove(6)\n\nlist1 = list1 * 2\nlist1 *= 2\n\n\n\n\nLoops\n\n\nfor i in range(10):\n    print(\nThe val is \n + str(i))\n\nfor c in \nThis is a sentence\n:\n    print(c)\n\n\n\n\nConditionals\n\n\nfor i in range(10):\n    if i%2 == 0:\n        print(str(i) + \n is even\n)\n\nfor i in range(10):\n    if i%2 == 0:\n        print(str(i) + \n is even\n)\n    else:\n        print(str(i) + \n is odd\n)\n\n\n\n\nFunctions\n\n\ndef is_even(val):\n    return val%2 == 0\n\ndef is_odd(val):\n    return val%2 != 0\n\nvals = range(10)\nfor i in vals:\n    if is_even(i):\n        print(str(i) + \n is even\n)\n    if is_odd(i):\n        print(str(i) + \n is odd\n)\n\n\n\n\nFunction Exercises:\n\n\n\n\nWrite a function \ndouble_num()\n that doubles a number\n\n\nWrite a function \nmy_abs()\n that returns the absolute value of a number\n\n\nWrite a function \nstr_len()\n that returns the length of a string\n\n\nWrite a function \nmax_val()\n that returns the maximum value in a list\n\n\nWrite a function \nequal_str()\n that returns true if two strings are equal, regardless of case\n\n\n\n\nStrings\n\n\nstr = \nHello World!\n\nlen(str)\nstr.index(\no\n)\nstr.count(\nl\n)\nstr.upper()\nstr.lower()\nstr.startswith(\nHello\n)\nstr.endswith(\nHello\n)\n\nvals = str.split(\n \n)\nlen(vals)\nvals[1] + \n \n + vals[0]\n\nanimal = \nmouse\n\n\nWatch the {0} run\n.format(animal)\n\nstr[2:8]\nstr[2:8:2]\nstr[::-1]\nstr[8:2:-1]\nstr[8:2:-2]\n\n\n\n\nSlices\n\n\nSyntax:\n \nlist[start_index : end_index : step]\n\n\nlist2 = range(10)\n\nlen(list2)\n\nlist2[4]\nlist2[2:7]\n\nlist2[:5]\nlist2[5:]\nlist2[:]\n\nlist2[::1]\nlist2[::2]\n\nlist2[::-1]\nlist2[::-2]\n\nlist2[-1:-6:-1]\nlist2[-1:-6:-2]\nlist2[3:-3]\nlist2[-3:3:-1]\n\nlist2[2:5] = [15]\n\n# Sorting Lists\nsorted(list2)\nsorted(list2, reverse=True)\n\n# List assignments\na = range(5)\na\nb = a\nb\na[3] = 99\na\nb\n\nb = a[:]\na\nb\na[0] = 33\na\nb\n\n\n\n\nTuples\n\n\nTuples are very similar to lists, except they are immutable.\n\n\ntuple1 = (1, 2, 3, 4, 5)\ntuple2 = (3.0, \ncat\n)\n\n# This is a no go\ntuple1[1] = 4\n\n# Unpacking \nval1, val2 = tuple2\nval3, val4, val5 = tuple1[1:4]\n\n\n\n\nDictionaries\n\n\ndict1 = {\na\n: \nmoose\n, \nb\n: 2, \nc\n: \nfox\n}\n\ndict1\ndict1[\nc\n]\ndict1[\nc\n] = \nrat\n\ndict1[\nc\n]\n\ndict2 = {}\nfor i in range(0, 10):\n    dict2[\nval\n + str(i)] = i\ndict2", 
+            "location": "/repl1/",
+            "text": "Primitive values\n\n\n# Numbers\n2 + 4\n7 * 5\ni_val = 8\nf_val = 4.3\n\ni_val\ni_val + 3\ni_val * f_val\n\n# Strings\n\"Hello \" + 'World'\n\ns_val = \"dog\"\n\"Watch the \" + s_val + \" run\"\n\ns_val * 10\n\n# Determining type\ntype(i_val)\ntype(f_val)\n\n\n\n\nBuilt-in Functions\n\n\nabs(-3)\nmax(1, 2, 3)\nmin(5, 6, 3, 4, 8)\nlen('this is a string')\n\ni = 5\n\"An int value: \" + i\n\"An int value: \" + str(i)\n\n\n\n\nLists\n\n\nlist1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nlist2 = range(20)\nlist3 = range(5, 12)\nlist4 = range(0, 14, 2)\nlist5 = [\"goat\", 6, \"cow\", 4.2]\n\nlen(list1)\nlist1[2]\nlist1[-2]\n\nlist1[5]\nlist1[5] = 99\n\nlist1.append(88)\nlist1.insert(3, 44)\nlist1.remove(6)\n\nlist1 = list1 * 2\nlist1 *= 2\n\n\n\n\nLoops\n\n\nfor i in range(10):\n    print(\"The val is \" + str(i))\n\nfor c in \"This is a sentence\":\n    print(c)\n\n\n\n\nConditionals\n\n\nfor i in range(10):\n    if i%2 == 0:\n        print(str(i) + \" is even\")\n\nfor i in range(10):\n    if i%2 == 0:\n        print(str(i) + \" is even\")\n    else:\n        print(str(i) + \" is odd\")\n\n\n\n\nFunctions\n\n\ndef is_even(val):\n    return val%2 == 0\n\ndef is_odd(val):\n    return val%2 != 0\n\nvals = range(10)\nfor i in vals:\n    if is_even(i):\n        print(str(i) + \" is even\")\n    if is_odd(i):\n        print(str(i) + \" is odd\")\n\n\n\n\nFunction Exercises:\n\n\n\n\nWrite a function \ndouble_num()\n that doubles a number\n\n\nWrite a function \nmy_abs()\n that returns the absolute value of a number\n\n\nWrite a function \nstr_len()\n that returns the length of a string\n\n\nWrite a function \nmax_val()\n that returns the maximum value in a list\n\n\nWrite a function \nequal_str()\n that returns true if two strings are equal, regardless of case\n\n\n\n\nStrings\n\n\nstr = \"Hello World!\"\nlen(str)\nstr.index(\"o\")\nstr.count(\"l\")\nstr.upper()\nstr.lower()\nstr.startswith(\"Hello\")\nstr.endswith(\"Hello\")\n\nvals = str.split(\" \")\nlen(vals)\nvals[1] + \" \" + vals[0]\n\nanimal = \"mouse\"\n\"Watch the {0} run\".format(animal)\n\nstr[2:8]\nstr[2:8:2]\nstr[::-1]\nstr[8:2:-1]\nstr[8:2:-2]\n\n\n\n\nSlices\n\n\nSyntax:\n \nlist[start_index : end_index : step]\n\n\nlist2 = range(10)\n\nlen(list2)\n\nlist2[4]\nlist2[2:7]\n\nlist2[:5]\nlist2[5:]\nlist2[:]\n\nlist2[::1]\nlist2[::2]\n\nlist2[::-1]\nlist2[::-2]\n\nlist2[-1:-6:-1]\nlist2[-1:-6:-2]\nlist2[3:-3]\nlist2[-3:3:-1]\n\nlist2[2:5] = [15]\n\n# Sorting Lists\nsorted(list2)\nsorted(list2, reverse=True)\n\n# List assignments\na = range(5)\na\nb = a\nb\na[3] = 99\na\nb\n\nb = a[:]\na\nb\na[0] = 33\na\nb\n\n\n\n\nTuples\n\n\nTuples are very similar to lists, except they are immutable.\n\n\ntuple1 = (1, 2, 3, 4, 5)\ntuple2 = (3.0, \"cat\")\n\n# This is a no go\ntuple1[1] = 4\n\n# Unpacking \nval1, val2 = tuple2\nval3, val4, val5 = tuple1[1:4]\n\n\n\n\nDictionaries\n\n\ndict1 = {\"a\": \"moose\", \"b\": 2, \"c\": \"fox\"}\n\ndict1\ndict1[\"c\"]\ndict1[\"c\"] = \"rat\"\ndict1[\"c\"]\n\ndict2 = {}\nfor i in range(0, 10):\n    dict2[\"val\" + str(i)] = i\ndict2",
             "title": "REPL 1"
-        }, 
+        },
         {
-            "location": "/repl1/#primitive-values", 
-            "text": "# Numbers\n2 + 4\n7 * 5\ni_val = 8\nf_val = 4.3\n\ni_val\ni_val + 3\ni_val * f_val\n\n# Strings Hello   + 'World'\n\ns_val =  dog  Watch the   + s_val +   run \n\ns_val * 10\n\n# Determining type\ntype(i_val)\ntype(f_val)", 
+            "location": "/repl1/#primitive-values",
+            "text": "# Numbers\n2 + 4\n7 * 5\ni_val = 8\nf_val = 4.3\n\ni_val\ni_val + 3\ni_val * f_val\n\n# Strings\n\"Hello \" + 'World'\n\ns_val = \"dog\"\n\"Watch the \" + s_val + \" run\"\n\ns_val * 10\n\n# Determining type\ntype(i_val)\ntype(f_val)",
             "title": "Primitive values"
-        }, 
+        },
         {
-            "location": "/repl1/#built-in-functions", 
-            "text": "abs(-3)\nmax(1, 2, 3)\nmin(5, 6, 3, 4, 8)\nlen('this is a string')\n\ni = 5 An int value:   + i An int value:   + str(i)", 
+            "location": "/repl1/#built-in-functions",
+            "text": "abs(-3)\nmax(1, 2, 3)\nmin(5, 6, 3, 4, 8)\nlen('this is a string')\n\ni = 5\n\"An int value: \" + i\n\"An int value: \" + str(i)",
             "title": "Built-in Functions"
-        }, 
+        },
         {
-            "location": "/repl1/#lists", 
-            "text": "list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nlist2 = range(20)\nlist3 = range(5, 12)\nlist4 = range(0, 14, 2)\nlist5 = [ goat , 6,  cow , 4.2]\n\nlen(list1)\nlist1[2]\nlist1[-2]\n\nlist1[5]\nlist1[5] = 99\n\nlist1.append(88)\nlist1.insert(3, 44)\nlist1.remove(6)\n\nlist1 = list1 * 2\nlist1 *= 2", 
+            "location": "/repl1/#lists",
+            "text": "list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nlist2 = range(20)\nlist3 = range(5, 12)\nlist4 = range(0, 14, 2)\nlist5 = [\"goat\", 6, \"cow\", 4.2]\n\nlen(list1)\nlist1[2]\nlist1[-2]\n\nlist1[5]\nlist1[5] = 99\n\nlist1.append(88)\nlist1.insert(3, 44)\nlist1.remove(6)\n\nlist1 = list1 * 2\nlist1 *= 2",
             "title": "Lists"
-        }, 
+        },
         {
-            "location": "/repl1/#loops", 
-            "text": "for i in range(10):\n    print( The val is   + str(i))\n\nfor c in  This is a sentence :\n    print(c)", 
+            "location": "/repl1/#loops",
+            "text": "for i in range(10):\n    print(\"The val is \" + str(i))\n\nfor c in \"This is a sentence\":\n    print(c)",
             "title": "Loops"
-        }, 
+        },
         {
-            "location": "/repl1/#conditionals", 
-            "text": "for i in range(10):\n    if i%2 == 0:\n        print(str(i) +   is even )\n\nfor i in range(10):\n    if i%2 == 0:\n        print(str(i) +   is even )\n    else:\n        print(str(i) +   is odd )", 
+            "location": "/repl1/#conditionals",
+            "text": "for i in range(10):\n    if i%2 == 0:\n        print(str(i) + \" is even\")\n\nfor i in range(10):\n    if i%2 == 0:\n        print(str(i) + \" is even\")\n    else:\n        print(str(i) + \" is odd\")",
             "title": "Conditionals"
-        }, 
+        },
         {
-            "location": "/repl1/#functions", 
-            "text": "def is_even(val):\n    return val%2 == 0\n\ndef is_odd(val):\n    return val%2 != 0\n\nvals = range(10)\nfor i in vals:\n    if is_even(i):\n        print(str(i) +   is even )\n    if is_odd(i):\n        print(str(i) +   is odd )", 
+            "location": "/repl1/#functions",
+            "text": "def is_even(val):\n    return val%2 == 0\n\ndef is_odd(val):\n    return val%2 != 0\n\nvals = range(10)\nfor i in vals:\n    if is_even(i):\n        print(str(i) + \" is even\")\n    if is_odd(i):\n        print(str(i) + \" is odd\")",
             "title": "Functions"
-        }, 
+        },
         {
-            "location": "/repl1/#function-exercises", 
-            "text": "Write a function  double_num()  that doubles a number  Write a function  my_abs()  that returns the absolute value of a number  Write a function  str_len()  that returns the length of a string  Write a function  max_val()  that returns the maximum value in a list  Write a function  equal_str()  that returns true if two strings are equal, regardless of case", 
+            "location": "/repl1/#function-exercises",
+            "text": "Write a function  double_num()  that doubles a number  Write a function  my_abs()  that returns the absolute value of a number  Write a function  str_len()  that returns the length of a string  Write a function  max_val()  that returns the maximum value in a list  Write a function  equal_str()  that returns true if two strings are equal, regardless of case",
             "title": "Function Exercises:"
-        }, 
+        },
         {
-            "location": "/repl1/#strings", 
-            "text": "str =  Hello World! \nlen(str)\nstr.index( o )\nstr.count( l )\nstr.upper()\nstr.lower()\nstr.startswith( Hello )\nstr.endswith( Hello )\n\nvals = str.split(   )\nlen(vals)\nvals[1] +     + vals[0]\n\nanimal =  mouse  Watch the {0} run .format(animal)\n\nstr[2:8]\nstr[2:8:2]\nstr[::-1]\nstr[8:2:-1]\nstr[8:2:-2]", 
+            "location": "/repl1/#strings",
+            "text": "str = \"Hello World!\"\nlen(str)\nstr.index(\"o\")\nstr.count(\"l\")\nstr.upper()\nstr.lower()\nstr.startswith(\"Hello\")\nstr.endswith(\"Hello\")\n\nvals = str.split(\" \")\nlen(vals)\nvals[1] + \" \" + vals[0]\n\nanimal = \"mouse\"\n\"Watch the {0} run\".format(animal)\n\nstr[2:8]\nstr[2:8:2]\nstr[::-1]\nstr[8:2:-1]\nstr[8:2:-2]",
             "title": "Strings"
-        }, 
+        },
         {
-            "location": "/repl1/#slices", 
-            "text": "Syntax:   list[start_index : end_index : step]  list2 = range(10)\n\nlen(list2)\n\nlist2[4]\nlist2[2:7]\n\nlist2[:5]\nlist2[5:]\nlist2[:]\n\nlist2[::1]\nlist2[::2]\n\nlist2[::-1]\nlist2[::-2]\n\nlist2[-1:-6:-1]\nlist2[-1:-6:-2]\nlist2[3:-3]\nlist2[-3:3:-1]\n\nlist2[2:5] = [15]\n\n# Sorting Lists\nsorted(list2)\nsorted(list2, reverse=True)\n\n# List assignments\na = range(5)\na\nb = a\nb\na[3] = 99\na\nb\n\nb = a[:]\na\nb\na[0] = 33\na\nb", 
+            "location": "/repl1/#slices",
+            "text": "Syntax:   list[start_index : end_index : step]  list2 = range(10)\n\nlen(list2)\n\nlist2[4]\nlist2[2:7]\n\nlist2[:5]\nlist2[5:]\nlist2[:]\n\nlist2[::1]\nlist2[::2]\n\nlist2[::-1]\nlist2[::-2]\n\nlist2[-1:-6:-1]\nlist2[-1:-6:-2]\nlist2[3:-3]\nlist2[-3:3:-1]\n\nlist2[2:5] = [15]\n\n# Sorting Lists\nsorted(list2)\nsorted(list2, reverse=True)\n\n# List assignments\na = range(5)\na\nb = a\nb\na[3] = 99\na\nb\n\nb = a[:]\na\nb\na[0] = 33\na\nb",
             "title": "Slices"
-        }, 
+        },
         {
-            "location": "/repl1/#tuples", 
-            "text": "Tuples are very similar to lists, except they are immutable.  tuple1 = (1, 2, 3, 4, 5)\ntuple2 = (3.0,  cat )\n\n# This is a no go\ntuple1[1] = 4\n\n# Unpacking \nval1, val2 = tuple2\nval3, val4, val5 = tuple1[1:4]", 
+            "location": "/repl1/#tuples",
+            "text": "Tuples are very similar to lists, except they are immutable.  tuple1 = (1, 2, 3, 4, 5)\ntuple2 = (3.0, \"cat\")\n\n# This is a no go\ntuple1[1] = 4\n\n# Unpacking \nval1, val2 = tuple2\nval3, val4, val5 = tuple1[1:4]",
             "title": "Tuples"
-        }, 
+        },
         {
-            "location": "/repl1/#dictionaries", 
-            "text": "dict1 = { a :  moose ,  b : 2,  c :  fox }\n\ndict1\ndict1[ c ]\ndict1[ c ] =  rat \ndict1[ c ]\n\ndict2 = {}\nfor i in range(0, 10):\n    dict2[ val  + str(i)] = i\ndict2", 
+            "location": "/repl1/#dictionaries",
+            "text": "dict1 = {\"a\": \"moose\", \"b\": 2, \"c\": \"fox\"}\n\ndict1\ndict1[\"c\"]\ndict1[\"c\"] = \"rat\"\ndict1[\"c\"]\n\ndict2 = {}\nfor i in range(0, 10):\n    dict2[\"val\" + str(i)] = i\ndict2",
             "title": "Dictionaries"
-        }, 
+        },
         {
-            "location": "/ev3-admin/", 
-            "text": "EV3 Administration\n\n\nFor full ev3dev documentation visit \n\nhere\n.\n\n\nFor full ev3dev Python documentation visit \n\nhere\n.\n\n\nConnecting\n\n\nThe default username/password is: robot/maker\n\n\nConnect to an EV3 named \nev3dev1.local\n with:\n\n\n$ ssh robot@ev3dev1.local\n\n\n\n\nCopy files to an EV3 named \nev3dev1.local\n with a \nsftp\n session:\n\n\n$ sftp robot@ev3dev1.local\nrobot@ev3dev3.local's password: \nConnected to ev3dev3.local.\nsftp\n put file_name\n\n\n\n\nExit from \nsftp\n with ctrl-D.\n\n\nOr you can use \nscp\n:\n\n\n$ scp file_name robot@ev3dev1.local:/home/robot/\n\n\n\n\nUpdate Linux Bits\n\n\n$ sudo apt-get update\n$ sudo apt-get upgrade\n$ sudo apt-get dist-upgrade\n$ sudo reboot now\n\n\n\n\nEV3 Python Bindings\n\n\nInstall the EV3 Python bindings with:\n\n\n@ pip install python-ev3dev", 
+            "location": "/ev3-admin/",
+            "text": "EV3 Administration\n\n\nFor full ev3dev documentation visit \n\nhere\n.\n\n\nFor full ev3dev Python documentation visit \n\nhere\n.\n\n\nConnecting\n\n\nThe default username/password is: robot/maker\n\n\nConnect to an EV3 named \nev3dev1.local\n with:\n\n\n$ ssh robot@ev3dev1.local\n\n\n\n\nCopy files to an EV3 named \nev3dev1.local\n with a \nsftp\n session:\n\n\n$ sftp robot@ev3dev1.local\nrobot@ev3dev3.local's password: \nConnected to ev3dev3.local.\nsftp> put file_name\n\n\n\n\nExit from \nsftp\n with ctrl-D.\n\n\nOr you can use \nscp\n:\n\n\n$ scp file_name robot@ev3dev1.local:/home/robot/\n\n\n\n\nUpdate Linux Bits\n\n\n$ sudo apt-get update\n$ sudo apt-get upgrade\n$ sudo apt-get dist-upgrade\n$ sudo reboot now\n\n\n\n\nEV3 Python Bindings\n\n\nInstall the EV3 Python bindings with:\n\n\n@ pip install python-ev3dev",
             "title": "Admin"
-        }, 
+        },
         {
-            "location": "/ev3-admin/#ev3-administration", 
-            "text": "For full ev3dev documentation visit  here .  For full ev3dev Python documentation visit  here .", 
+            "location": "/ev3-admin/#ev3-administration",
+            "text": "For full ev3dev documentation visit  here .  For full ev3dev Python documentation visit  here .",
             "title": "EV3 Administration"
-        }, 
+        },
         {
-            "location": "/ev3-admin/#connecting", 
-            "text": "The default username/password is: robot/maker  Connect to an EV3 named  ev3dev1.local  with:  $ ssh robot@ev3dev1.local  Copy files to an EV3 named  ev3dev1.local  with a  sftp  session:  $ sftp robot@ev3dev1.local\nrobot@ev3dev3.local's password: \nConnected to ev3dev3.local.\nsftp  put file_name  Exit from  sftp  with ctrl-D.  Or you can use  scp :  $ scp file_name robot@ev3dev1.local:/home/robot/", 
+            "location": "/ev3-admin/#connecting",
+            "text": "The default username/password is: robot/maker  Connect to an EV3 named  ev3dev1.local  with:  $ ssh robot@ev3dev1.local  Copy files to an EV3 named  ev3dev1.local  with a  sftp  session:  $ sftp robot@ev3dev1.local\nrobot@ev3dev3.local's password: \nConnected to ev3dev3.local.\nsftp> put file_name  Exit from  sftp  with ctrl-D.  Or you can use  scp :  $ scp file_name robot@ev3dev1.local:/home/robot/",
             "title": "Connecting"
-        }, 
+        },
         {
-            "location": "/ev3-admin/#update-linux-bits", 
-            "text": "$ sudo apt-get update\n$ sudo apt-get upgrade\n$ sudo apt-get dist-upgrade\n$ sudo reboot now", 
+            "location": "/ev3-admin/#update-linux-bits",
+            "text": "$ sudo apt-get update\n$ sudo apt-get upgrade\n$ sudo apt-get dist-upgrade\n$ sudo reboot now",
             "title": "Update Linux Bits"
-        }, 
+        },
         {
-            "location": "/ev3-admin/#ev3-python-bindings", 
-            "text": "Install the EV3 Python bindings with:  @ pip install python-ev3dev", 
+            "location": "/ev3-admin/#ev3-python-bindings",
+            "text": "Install the EV3 Python bindings with:  @ pip install python-ev3dev",
             "title": "EV3 Python Bindings"
-        }, 
+        },
         {
-            "location": "/ev3-python/", 
-            "text": "EV3 Python\n\n\n\n\nThe ev3dev Python API is described \nhere", 
+            "location": "/ev3-python/",
+            "text": "EV3 Python\n\n\n\n\nThe ev3dev Python API is described \nhere",
             "title": "Python"
-        }, 
+        },
         {
-            "location": "/ev3-python/#ev3-python", 
-            "text": "The ev3dev Python API is described  here", 
+            "location": "/ev3-python/#ev3-python",
+            "text": "The ev3dev Python API is described  here",
             "title": "EV3 Python"
-        }, 
+        },
         {
-            "location": "/git/", 
-            "text": "Git Notes\n\n\nInstallation\n\n\nOSX\n\n\nInstall git on OSX with:\n\n\n$ brew install git\n\n\n\n\nev3dev and Raspberry Pi\n\n\n$ sudo apt-get install git\n\n\n\n\nCloning a Repo\n\n\nClone a repo from \nAthenian Robotics\n with:\n\n\n$ git clone https://github.com/athenian-robotics/ev3dev-python-intro.git\n\n\n\n\nTo find the URL for a particular repo, go to it's Github page and \nclick on the \nClone or download\n button and copy the URL in the pop-up\nwindow. Make sure that the repo URL begins with \nhttps:\n and not \ngit:\n. \nYou can toggle between the two versions by clicking on \nUse HTTPS\n and \nUse SSH\n.", 
+            "location": "/git/",
+            "text": "Git Notes\n\n\nInstallation\n\n\nOSX\n\n\nInstall git on OSX with:\n\n\n$ brew install git\n\n\n\n\nev3dev and Raspberry Pi\n\n\n$ sudo apt-get install git\n\n\n\n\nCloning a Repo\n\n\nClone a repo from \nAthenian Robotics\n with:\n\n\n$ git clone https://github.com/athenian-robotics/ev3dev-python-intro.git\n\n\n\n\nTo find the URL for a particular repo, go to it's Github page and \nclick on the \nClone or download\n button and copy the URL in the pop-up\nwindow. Make sure that the repo URL begins with \nhttps:\n and not \ngit:\n. \nYou can toggle between the two versions by clicking on \nUse HTTPS\n and \nUse SSH\n.",
             "title": "Git"
-        }, 
+        },
         {
-            "location": "/git/#git-notes", 
-            "text": "", 
+            "location": "/git/#git-notes",
+            "text": "",
             "title": "Git Notes"
-        }, 
+        },
         {
-            "location": "/git/#installation", 
-            "text": "", 
+            "location": "/git/#installation",
+            "text": "",
             "title": "Installation"
-        }, 
+        },
         {
-            "location": "/git/#osx", 
-            "text": "Install git on OSX with:  $ brew install git", 
+            "location": "/git/#osx",
+            "text": "Install git on OSX with:  $ brew install git",
             "title": "OSX"
-        }, 
+        },
         {
-            "location": "/git/#ev3dev-and-raspberry-pi", 
-            "text": "$ sudo apt-get install git", 
+            "location": "/git/#ev3dev-and-raspberry-pi",
+            "text": "$ sudo apt-get install git",
             "title": "ev3dev and Raspberry Pi"
-        }, 
+        },
         {
-            "location": "/git/#cloning-a-repo", 
-            "text": "Clone a repo from  Athenian Robotics  with:  $ git clone https://github.com/athenian-robotics/ev3dev-python-intro.git  To find the URL for a particular repo, go to it's Github page and \nclick on the  Clone or download  button and copy the URL in the pop-up\nwindow. Make sure that the repo URL begins with  https:  and not  git: . \nYou can toggle between the two versions by clicking on  Use HTTPS  and  Use SSH .", 
+            "location": "/git/#cloning-a-repo",
+            "text": "Clone a repo from  Athenian Robotics  with:  $ git clone https://github.com/athenian-robotics/ev3dev-python-intro.git  To find the URL for a particular repo, go to it's Github page and \nclick on the  Clone or download  button and copy the URL in the pop-up\nwindow. Make sure that the repo URL begins with  https:  and not  git: . \nYou can toggle between the two versions by clicking on  Use HTTPS  and  Use SSH .",
             "title": "Cloning a Repo"
-        }, 
+        },
         {
-            "location": "/mqtt/", 
-            "text": "MQTT Notes\n\n\nMQTT Broker Installation\n\n\nOSX\n\n\nTo install mosquitto:\n\n\n$ brew install mosquitto\n\n\n\n\nTo add mosquitto to launchd:\n\n\n$ brew services start mosquitto\n\n\n\n\nIf you don't want to run mosquitto as a background service:\n\n\n$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf\n\n\n\n\nDocker\n\n\nTo run mosquitto as a docker service:\n\n\n$ docker run -ti -p 1883:1883 -p 9001:9001 toke/mosquitto\n\n\n\n\nImage details are \nhere\n\n\nRaspberry Pi\n\n\n$ sudo apt-get install mosquitto\n$ sudo apt-get install mosquitto-clients\n\n\n\n\nTesting from CLI\n\n\nSubscribe\n\n\n$ mosquitto_sub -d -h localhost -t /testnode\nClient mosqsub/27524-pleiku.lo sending CONNECT\nClient mosqsub/27524-pleiku.lo received CONNACK\nClient mosqsub/27524-pleiku.lo sending SUBSCRIBE (Mid: 1, Topic: /testnode, QoS: 0)\nClient mosqsub/27524-pleiku.lo received SUBACK\nSubscribed (mid: 1): 0\n\n\n\n\nPublish\n\n\n$ mosquitto_pub -d -h localhost -m \nsimple val\n -t /testnode\nClient mosqpub/27472-pleiku.lo sending CONNECT\nClient mosqpub/27472-pleiku.lo received CONNACK\nClient mosqpub/27472-pleiku.lo sending PUBLISH (d0, q0, r0, m1, '/testnode', ... (10 bytes))\nClient mosqpub/27472-pleiku.lo sending DISCONNECT", 
+            "location": "/mqtt/",
+            "text": "MQTT Notes\n\n\nMQTT Broker Installation\n\n\nOSX\n\n\nTo install mosquitto:\n\n\n$ brew install mosquitto\n\n\n\n\nTo add mosquitto to launchd:\n\n\n$ brew services start mosquitto\n\n\n\n\nIf you don't want to run mosquitto as a background service:\n\n\n$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf\n\n\n\n\nWindows\n\n\nCreate a folder named \nmosquitto\n in \nC:\\Program Files (x86)\n\n\nDownload and install \nWin32 OpenSSL v.1.0.2j Light\n. Select the option to save the binaries to /bin. Find \nlibeay32.dll\n and \nssleay32.dll\n, move them to \nmosquitto\n.\n\n\nDownload \npthreadVC2.dll\n, move it to \nmosquitto\n.\n\n\nDownload and install \nmosquitto\n. Leave the\n\n\nOpen Services, find \nMosquitto Broker\n and start it.\n\n\nTo be able to run it from the command line, open System Properties, go to the Advanced tab, and open Environment Variables. Add the path to \nmosquitto\n to the user Path variable, followed by ;.\ne.g.\n\n\nC:\\Program Files (x86)\\mosquitto;\n\n\n\n\nCommands are run in cmd like osx/linux.\n\n\nDocker\n\n\nTo run mosquitto as a docker service:\n\n\n$ docker run -ti -p 1883:1883 -p 9001:9001 toke/mosquitto\n\n\n\n\nImage details are \nhere\n\n\nRaspberry Pi\n\n\n$ sudo apt-get install mosquitto\n$ sudo apt-get install mosquitto-clients\n\n\n\n\nTesting from CLI\n\n\nSubscribe\n\n\n$ mosquitto_sub -d -h localhost -t /testnode\nClient mosqsub/27524-pleiku.lo sending CONNECT\nClient mosqsub/27524-pleiku.lo received CONNACK\nClient mosqsub/27524-pleiku.lo sending SUBSCRIBE (Mid: 1, Topic: /testnode, QoS: 0)\nClient mosqsub/27524-pleiku.lo received SUBACK\nSubscribed (mid: 1): 0\n\n\n\n\nPublish\n\n\n$ mosquitto_pub -d -h localhost -m \"simple val\" -t /testnode\nClient mosqpub/27472-pleiku.lo sending CONNECT\nClient mosqpub/27472-pleiku.lo received CONNACK\nClient mosqpub/27472-pleiku.lo sending PUBLISH (d0, q0, r0, m1, '/testnode', ... (10 bytes))\nClient mosqpub/27472-pleiku.lo sending DISCONNECT",
             "title": "MQTT"
-        }, 
+        },
         {
-            "location": "/mqtt/#mqtt-notes", 
-            "text": "", 
+            "location": "/mqtt/#mqtt-notes",
+            "text": "",
             "title": "MQTT Notes"
-        }, 
+        },
         {
-            "location": "/mqtt/#mqtt-broker-installation", 
-            "text": "", 
+            "location": "/mqtt/#mqtt-broker-installation",
+            "text": "",
             "title": "MQTT Broker Installation"
-        }, 
+        },
         {
-            "location": "/mqtt/#osx", 
-            "text": "To install mosquitto:  $ brew install mosquitto  To add mosquitto to launchd:  $ brew services start mosquitto  If you don't want to run mosquitto as a background service:  $ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf", 
+            "location": "/mqtt/#osx",
+            "text": "To install mosquitto:  $ brew install mosquitto  To add mosquitto to launchd:  $ brew services start mosquitto  If you don't want to run mosquitto as a background service:  $ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf",
             "title": "OSX"
-        }, 
+        },
         {
-            "location": "/mqtt/#docker", 
-            "text": "To run mosquitto as a docker service:  $ docker run -ti -p 1883:1883 -p 9001:9001 toke/mosquitto  Image details are  here", 
+            "location": "/mqtt/#windows",
+            "text": "Create a folder named  mosquitto  in  C:\\Program Files (x86)  Download and install  Win32 OpenSSL v.1.0.2j Light . Select the option to save the binaries to /bin. Find  libeay32.dll  and  ssleay32.dll , move them to  mosquitto .  Download  pthreadVC2.dll , move it to  mosquitto .  Download and install  mosquitto . Leave the  Open Services, find  Mosquitto Broker  and start it.  To be able to run it from the command line, open System Properties, go to the Advanced tab, and open Environment Variables. Add the path to  mosquitto  to the user Path variable, followed by ;.\ne.g.  C:\\Program Files (x86)\\mosquitto;  Commands are run in cmd like osx/linux.",
+            "title": "Windows"
+        },
+        {
+            "location": "/mqtt/#docker",
+            "text": "To run mosquitto as a docker service:  $ docker run -ti -p 1883:1883 -p 9001:9001 toke/mosquitto  Image details are  here",
             "title": "Docker"
-        }, 
+        },
         {
-            "location": "/mqtt/#raspberry-pi", 
-            "text": "$ sudo apt-get install mosquitto\n$ sudo apt-get install mosquitto-clients", 
+            "location": "/mqtt/#raspberry-pi",
+            "text": "$ sudo apt-get install mosquitto\n$ sudo apt-get install mosquitto-clients",
             "title": "Raspberry Pi"
-        }, 
+        },
         {
-            "location": "/mqtt/#testing-from-cli", 
-            "text": "", 
+            "location": "/mqtt/#testing-from-cli",
+            "text": "",
             "title": "Testing from CLI"
-        }, 
+        },
         {
-            "location": "/mqtt/#subscribe", 
-            "text": "$ mosquitto_sub -d -h localhost -t /testnode\nClient mosqsub/27524-pleiku.lo sending CONNECT\nClient mosqsub/27524-pleiku.lo received CONNACK\nClient mosqsub/27524-pleiku.lo sending SUBSCRIBE (Mid: 1, Topic: /testnode, QoS: 0)\nClient mosqsub/27524-pleiku.lo received SUBACK\nSubscribed (mid: 1): 0", 
+            "location": "/mqtt/#subscribe",
+            "text": "$ mosquitto_sub -d -h localhost -t /testnode\nClient mosqsub/27524-pleiku.lo sending CONNECT\nClient mosqsub/27524-pleiku.lo received CONNACK\nClient mosqsub/27524-pleiku.lo sending SUBSCRIBE (Mid: 1, Topic: /testnode, QoS: 0)\nClient mosqsub/27524-pleiku.lo received SUBACK\nSubscribed (mid: 1): 0",
             "title": "Subscribe"
-        }, 
+        },
         {
-            "location": "/mqtt/#publish", 
-            "text": "$ mosquitto_pub -d -h localhost -m  simple val  -t /testnode\nClient mosqpub/27472-pleiku.lo sending CONNECT\nClient mosqpub/27472-pleiku.lo received CONNACK\nClient mosqpub/27472-pleiku.lo sending PUBLISH (d0, q0, r0, m1, '/testnode', ... (10 bytes))\nClient mosqpub/27472-pleiku.lo sending DISCONNECT", 
+            "location": "/mqtt/#publish",
+            "text": "$ mosquitto_pub -d -h localhost -m \"simple val\" -t /testnode\nClient mosqpub/27472-pleiku.lo sending CONNECT\nClient mosqpub/27472-pleiku.lo received CONNACK\nClient mosqpub/27472-pleiku.lo sending PUBLISH (d0, q0, r0, m1, '/testnode', ... (10 bytes))\nClient mosqpub/27472-pleiku.lo sending DISCONNECT",
             "title": "Publish"
-        }, 
+        },
         {
-            "location": "/plotly/", 
-            "text": "Plot.ly Notes\n\n\nFor full documentation visit \nplot.ly\n.\n\n\nOne-time Setup\n\n\nBefore using plot.ly, follow these steps:\n\n\n1) \nSign up\n and create a plot.ly account. Notice that \nyou can click on the Github logo and use your GitHub credentials to sign up.\n\n\n2) Create your credentials file:\n\n\n$ pip install plotly\n$ python\n\n import plotly\n\n plotly.tools.set_credentials_file(username='YourName', api_key='YourKey')\n\n\n\n\nThis will create a \n~/.plotly/.credentials\n file. \n\n\n3) You will be using \nplot.ly streams\n, \nso create some streaming API tokens\n\nhere\n. You should create 3 to start.\n\n\n4) Manually add the newly created streaming API tokens to \n~/.plotly/.credentials\n: \n\n\n{\n    \nusername\n: \nYourName\n,\n    \nstream_ids\n: [\n        \nid1\n,\n        \nid2\n,\n        \nid3\n\n    ],\n    \napi_key\n: \nYourKey\n,\n    \nproxy_username\n: \n,\n    \nproxy_password\n: \n\n}\n\n\n\n\nPython API\n\n\nOnce your streaming API tokens are added, you can use them in your code without \na hard-coded reference:\n\n\nimport plotly.plotly as py\nimport plotly.tools as tls\n\nstream_ids = tls.get_credentials_file()['stream_ids']\n# Use the first streaming API token\nstream_id = stream_ids[0]\nstream = py.Stream(stream_id)\nstream.open()", 
+            "location": "/plotly/",
+            "text": "Plot.ly Notes\n\n\nFor full documentation visit \nplot.ly\n.\n\n\nOne-time Setup\n\n\nBefore using plot.ly, follow these steps:\n\n\n1) \nSign up\n and create a plot.ly account. Notice that \nyou can click on the Github logo and use your GitHub credentials to sign up.\n\n\n2) Create your credentials file:\n\n\n$ pip install plotly\n$ python\n>>> import plotly\n>>> plotly.tools.set_credentials_file(username='YourName', api_key='YourKey')\n\n\n\n\nThis will create a \n~/.plotly/.credentials\n file. \n\n\n3) You will be using \nplot.ly streams\n, \nso create some streaming API tokens\n\nhere\n. You should create 3 to start.\n\n\n4) Manually add the newly created streaming API tokens to \n~/.plotly/.credentials\n: \n\n\n{\n    \"username\": \"YourName\",\n    \"stream_ids\": [\n        \"id1\",\n        \"id2\",\n        \"id3\"\n    ],\n    \"api_key\": \"YourKey\",\n    \"proxy_username\": \"\",\n    \"proxy_password\": \"\"\n}\n\n\n\n\nPython API\n\n\nOnce your streaming API tokens are added, you can use them in your code without \na hard-coded reference:\n\n\nimport plotly.plotly as py\nimport plotly.tools as tls\n\nstream_ids = tls.get_credentials_file()['stream_ids']\n# Use the first streaming API token\nstream_id = stream_ids[0]\nstream = py.Stream(stream_id)\nstream.open()",
             "title": "Plot.ly"
-        }, 
+        },
         {
-            "location": "/plotly/#plotly-notes", 
-            "text": "For full documentation visit  plot.ly .", 
+            "location": "/plotly/#plotly-notes",
+            "text": "For full documentation visit  plot.ly .",
             "title": "Plot.ly Notes"
-        }, 
+        },
         {
-            "location": "/plotly/#one-time-setup", 
-            "text": "Before using plot.ly, follow these steps:  1)  Sign up  and create a plot.ly account. Notice that \nyou can click on the Github logo and use your GitHub credentials to sign up.  2) Create your credentials file:  $ pip install plotly\n$ python  import plotly  plotly.tools.set_credentials_file(username='YourName', api_key='YourKey')  This will create a  ~/.plotly/.credentials  file.   3) You will be using  plot.ly streams , \nso create some streaming API tokens here . You should create 3 to start.  4) Manually add the newly created streaming API tokens to  ~/.plotly/.credentials :   {\n     username :  YourName ,\n     stream_ids : [\n         id1 ,\n         id2 ,\n         id3 \n    ],\n     api_key :  YourKey ,\n     proxy_username :  ,\n     proxy_password :  \n}", 
+            "location": "/plotly/#one-time-setup",
+            "text": "Before using plot.ly, follow these steps:  1)  Sign up  and create a plot.ly account. Notice that \nyou can click on the Github logo and use your GitHub credentials to sign up.  2) Create your credentials file:  $ pip install plotly\n$ python\n>>> import plotly\n>>> plotly.tools.set_credentials_file(username='YourName', api_key='YourKey')  This will create a  ~/.plotly/.credentials  file.   3) You will be using  plot.ly streams , \nso create some streaming API tokens here . You should create 3 to start.  4) Manually add the newly created streaming API tokens to  ~/.plotly/.credentials :   {\n    \"username\": \"YourName\",\n    \"stream_ids\": [\n        \"id1\",\n        \"id2\",\n        \"id3\"\n    ],\n    \"api_key\": \"YourKey\",\n    \"proxy_username\": \"\",\n    \"proxy_password\": \"\"\n}",
             "title": "One-time Setup"
-        }, 
+        },
         {
-            "location": "/plotly/#python-api", 
-            "text": "Once your streaming API tokens are added, you can use them in your code without \na hard-coded reference:  import plotly.plotly as py\nimport plotly.tools as tls\n\nstream_ids = tls.get_credentials_file()['stream_ids']\n# Use the first streaming API token\nstream_id = stream_ids[0]\nstream = py.Stream(stream_id)\nstream.open()", 
+            "location": "/plotly/#python-api",
+            "text": "Once your streaming API tokens are added, you can use them in your code without \na hard-coded reference:  import plotly.plotly as py\nimport plotly.tools as tls\n\nstream_ids = tls.get_credentials_file()['stream_ids']\n# Use the first streaming API token\nstream_id = stream_ids[0]\nstream = py.Stream(stream_id)\nstream.open()",
             "title": "Python API"
-        }, 
+        },
         {
-            "location": "/mkdocs/", 
-            "text": "MkDocs Notes\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject Layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\nsite/         # Generated website", 
+            "location": "/mkdocs/",
+            "text": "MkDocs Notes\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject Layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\nsite/         # Generated website",
             "title": "MkDocs"
-        }, 
+        },
         {
-            "location": "/mkdocs/#mkdocs-notes", 
-            "text": "For full documentation visit  mkdocs.org .", 
+            "location": "/mkdocs/#mkdocs-notes",
+            "text": "For full documentation visit  mkdocs.org .",
             "title": "MkDocs Notes"
-        }, 
+        },
         {
-            "location": "/mkdocs/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "location": "/mkdocs/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
             "title": "Commands"
-        }, 
+        },
         {
-            "location": "/mkdocs/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\nsite/         # Generated website", 
+            "location": "/mkdocs/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\nsite/         # Generated website",
             "title": "Project Layout"
         }
     ]
